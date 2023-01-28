@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(187, 234, 253);
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: darkorchid;
+    font-size: 500%;
+}
+
+hr {
+    margin: 100px auto;
+    border: dotted rgb(198, 85, 255) 6px;
+    border-bottom: none;
+    width: 5%;
+}
+
+.start-programmer {
+    color: darkorchid;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+span {
+    color: darkorchid;
+}
+
+.mountain {
+    width: 43%;
+}
+
+.dp-logo {
+    width: 11%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(163, 39, 225);
+    font-size: 225%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: darkorchid;
+    font-size: 145%;
+}
+
+.top-container {
+    background-color: skyblue;
+    position: relative;
+    padding-top: 95px;
+}
+
+.p-intro {
+    width: 20%;
+    margin: auto;
+}
+
+.middle-container {
+    margin: 100px 0 80px 0;
+}
+
+.bottom-container {
+    color: darkorchid;
+    background: skyblue;
+    padding: 50px 0 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 25%;
+    top: 89px;
+    width: 12%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 25%;
+    bottom: 50%;
+    width: 12%;
+}
+
+a {
+    color: darkorchid;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 1em 3.3em;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63, 94, 251, 1) 0%, rgba(70, 135, 252, 1) 100%);
+    box-shadow: rgba(63, 94, 251, 0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70, 135, 252, 1);
+    background-color: rgb(14, 199, 255);
+    width: 12rem;
+    cursor: pointer;
+    margin: 70px auto 90px auto;
+
+}
+
+.btn:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+    background: rgb(154, 62, 240);
+}
+
+.btn:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+
+.web-img {
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.app-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skills {
+    margin: 50px auto 50px auto;
+}
+
+.skill-row {
+    text-align: left;
+    width: 50%;
+    margin: 100px auto 10px auto;
+}
+
+.contace-define {
+    width: 20%;
+    margin: 40px auto 40px auto;
+}
+
+.copyright {
+    font-size: 65%;
+    font-family: 'Montserrat', sans-serif;
+    width: 6rem;
+    margin: 40px auto 40px auto;
+}
